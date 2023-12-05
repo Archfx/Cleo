@@ -1,24 +1,24 @@
-## ㊙️ Cleo : Cryptographic Leakage Evaluation of Hardware
+## ㊙️ Cleo: Cryptographic Leakage Evaluation of Hardware
 
-Cleo is a Test Vector Leakage Assessment (TVLA) project that evalautes hardware implementations of cryptographic instruction set extentions for physical side-channel leakage. Current framework  supports evalauting ongoing RISC-V cryptography extension standardization work. This is a complete power side-channel evaluation framework parallel to the existing test-based [functional validation suite](https://github.com/riscv/riscv-crypto/) and [formal verification suite](https://github.com/riscv/riscv-crypto/). 
+Cleo is a Test Vector Leakage Assessment (TVLA) project that evaluates hardware implementations of cryptographic instruction set extensions for physical side-channel leakage. The current framework supports evaluating ongoing RISC-V cryptography extension standardization work. This is a complete power side-channel evaluation framework parallel to the existing test-based [functional validation suite](https://github.com/riscv/riscv-crypto/) and [formal verification suite](https://github.com/riscv/riscv-crypto/). 
 
 
-The RISC-V instruction set architecture is known for its open-source and customizable design. One of the notable features of RISC-V is its modular and extensible nature, allowing developers to add custom instructions and extensions tailored to specific applications. There are several ongoing works on developping cryptographic instruction set extensions of RISC-V architecture. 
+The RISC-V instruction set architecture is known for its open-source and customizable design. One of the notable features of RISC-V is its modular and extensible nature, allowing developers to add custom instructions and extensions tailored to specific applications. There are several ongoing works on developing cryptographic instruction set extensions of RISC-V architecture. 
 
 - [riscv-crypto](https://github.com/riscv/riscv-crypto/): RISC-V cryptography extensions standardisation work.
 - [xcrypto](https://github.com/scarv/xcrypto): a cryptographic ISE for RISC-V
 
 
-### TVLA
+### Test Vector Leakage Assessment (TVLA)
 
-Test vector leakage assesmsnt tries to quanitfy potention power side channel leakage of a hardware imeplementation at early stage design life cycle. The device's power consumption fluctuates as it executes computations, responding to changing logic states and data processing. These current variations generate distinct patterns that enable the analysis of the ongoing operations. By observing these power consumption fluctuations and correlating them with specific computations, an adversary can deduce sensitive data, such as cryptographic keys or plaintext, without needing direct access to the internal memory or processes of the target device.
+Test vector leakage assessment tries to quantify potential power side-channel leakage of a hardware implementation at an early stage design life cycle. The device's power consumption fluctuates as it executes computations, responding to changing logic states and data processing. These current variations generate distinct patterns that enable the analysis of the ongoing operations. By observing these power consumption fluctuations and correlating them with specific computations, an adversary can deduce sensitive data, such as cryptographic keys or plaintext, without needing direct access to the internal memory or processes of the target device.
 
 
 
 
 ### Project Structure
 
-Here is the project structure. all the extensions under testing (```eut```) are initilized as submodules. Currenlty,  [riscv-crypto](https://github.com/riscv/riscv-crypto/), [xcrypto](https://github.com/scarv/xcrypto) and [scarv-soc](https://github.com/scarv/scarv-soc) are elvaluated.
+Here is the project structure. all the extensions under testing (```eut```) are initialized as submodules. Currenlty,  [riscv-crypto](https://github.com/riscv/riscv-crypto/), [xcrypto](https://github.com/scarv/xcrypto) and [scarv-soc](https://github.com/scarv/scarv-soc) are elvaluated.
 
 
 ```bash
@@ -46,7 +46,7 @@ Here is the project structure. all the extensions under testing (```eut```) are 
 
 ### Running CLEO 🏃‍♀️
 
-Followings are the steps to run the framework. Docker is a pre-requisit for Cleo since the complete enviroment for building everything is provided in [archfx/cleo](https://hub.docker.com/repository/docker/archfx/cleo/general) container.
+Following are the steps to run the framework. [Docker](https://www.docker.com/get-started/) is a pre-requisite for Cleo since the complete environment for building everything is provided in [archfx/cleo](https://hub.docker.com/repository/docker/archfx/cleo/general) container.
 
 1. Clone the project repository
 ```shell
@@ -100,7 +100,7 @@ As an example following is the power side channel signature of the [xc_sha256](h
 
 ### System Evalaution with the SoCs ([WiP](https://github.com/Archfx/Cleo/tree/dev))
 
-This part of the project is still in development and on the [dev](https://github.com/Archfx/Cleo/tree/dev) branch. Steps for running SoC version are as follows,
+This part of the project is still in development and on the [dev](https://github.com/Archfx/Cleo/tree/dev) branch. The steps for running the SoC version are as follows,
 
 ```shell
 git fetch --all
