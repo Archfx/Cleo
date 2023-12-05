@@ -1,4 +1,4 @@
-## Cleo : Cryptographic Leakage Evaluation of Hardware
+## ㊙️ Cleo : Cryptographic Leakage Evaluation of Hardware
 
 Cleo is a Test Vector Leakage Assessment (TVLA) project that evalautes hardware implementations of cryptographic instruction set extentions for physical side-channel leakage. Current framework  supports evalauting ongoing RISC-V cryptography extension standardization work. This is a complete power side-channel evaluation framework parallel to the existing test-based [functional validation suite](https://github.com/riscv/riscv-crypto/) and [formal verification suite](https://github.com/riscv/riscv-crypto/). 
 
