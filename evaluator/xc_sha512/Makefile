@@ -15,6 +15,4 @@ FIRMWARE=$(SOC_DIR)/firmware
 APP_SRC=$(FIRMWARE)/sha.S
 
 
-include $(POWER_LIBS)/tvla-soc.mk
 include $(POWER_LIBS)/tvla-fu.mk
-include $(SOC_DIR)/firmware.mk
