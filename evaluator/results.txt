@@ -7,7 +7,11 @@ Chi-squared test for hw(rs1)+hw(rs2):
 ╒══════════════╤═══════════╕
 │   Chi2 value │   P-value │
 ╞══════════════╪═══════════╡
+<<<<<<< HEAD
 │       171701 │         0 │
+=======
+│       189663 │         0 │
+>>>>>>> main
 ╘══════════════╧═══════════╛
 
 
@@ -19,6 +23,7 @@ Chi-squared test for hw(rs1)+hw(rs2):
 ╒══════════════╤═══════════╕
 │   Chi2 value │   P-value │
 ╞══════════════╪═══════════╡
+<<<<<<< HEAD
 │       155011 │         0 │
 ╘══════════════╧═══════════╛
 
@@ -32,6 +37,9 @@ Chi-squared test for hw(rs1):
 │   Chi2 value │   P-value │
 ╞══════════════╪═══════════╡
 │       169918 │         0 │
+=======
+│       161840 │         0 │
+>>>>>>> main
 ╘══════════════╧═══════════╛
 
 
@@ -43,7 +51,11 @@ Chi-squared test for hw(rs1)+hw(rs2):
 ╒══════════════╤═══════════╕
 │   Chi2 value │   P-value │
 ╞══════════════╪═══════════╡
+<<<<<<< HEAD
 │      96241.8 │         0 │
+=======
+│      89391.6 │         0 │
+>>>>>>> main
 ╘══════════════╧═══════════╛
 
 
@@ -55,6 +67,58 @@ Chi-squared test for hw(rs1):
 ╒══════════════╤═══════════╕
 │   Chi2 value │   P-value │
 ╞══════════════╪═══════════╡
+<<<<<<< HEAD
 │       297510 │         0 │
+=======
+│       295577 │         0 │
+╘══════════════╧═══════════╛
+
+
+
+
+Chi-squared test results
+Module: xc_aesmix.v
+Chi-squared test for hw(rs1)+hw(rs2):
+╒══════════════╤═══════════╕
+│   Chi2 value │   P-value │
+╞══════════════╪═══════════╡
+│       253058 │         0 │
+╘══════════════╧═══════════╛
+
+
+
+
+Chi-squared test results
+Module: riscv_crypto_fu_ssha256.v
+Chi-squared test for hw(rs1):
+╒══════════════╤═══════════╕
+│   Chi2 value │   P-value │
+╞══════════════╪═══════════╡
+│       245650 │         0 │
+╘══════════════╧═══════════╛
+
+
+
+
+Chi-squared test results
+Module: riscv_crypto_fu_saes64.v
+Chi-squared test for hw(rs1)+hw(rs2):
+╒══════════════╤═══════════╕
+│   Chi2 value │   P-value │
+╞══════════════╪═══════════╡
+│       434332 │         0 │
+╘══════════════╧═══════════╛
+
+
+
+
+Chi-squared test results
+Module: xc_sha512.v
+Chi-squared test for hw(rs1):
+╒══════════════╤═══════════╕
+│   Chi2 value │   P-value │
+╞══════════════╪═══════════╡
+│       512406 │         0 │
+>>>>>>> main
 ╘══════════════╧═══════════╛
 
