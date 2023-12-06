@@ -9,7 +9,7 @@
 #include <iomanip>
 #include <cstdlib> 
 
-#define ITERATIONS 10000
+#define ITERATIONS 10
 
 // Function to generate a random 64-bit number with a specific Hamming weight
 template <typename T>
